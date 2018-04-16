@@ -1,0 +1,56 @@
+### Background and Overview
+
+LazerLine is a single and multiple player game heavily influenced by tron's racing game concept. 
+
+Users control an infinitely growing lazerline in attempt to be the last player standing. Players are eliminated if they run into walls or any lighttrail, be it their own or another players. 
+
+### Funcitonality & MVP 
+
+- [ ] Controler LazerLine with AWSD or Directional controllers. 
+- [ ] Play against another human player on the same computer
+- [ ] Play against an AI. 
+- [ ] Generate Sound Effects based off of the turns, colisions, and death-sequences. 
+- [ ] Start, Pause, and Reset the Game. 
+- [ ] Select Game Difficulty (dependent on Speed)
+
+### Wireframes
+
+This game will consist of a single screen with a splash screen/modal to determine whether or not the game will be against an AI or another human player. There will be links to my Github, Linked as well as an instructional and about modal. There will be a mute button on the bottom left hand corner of the screen. On the left side of the screen the player can select one of many colors to represent their lazerline as well as a difficulty (Easy, Medium, Hard) which determines the speed/playback rate of the game. 
+
+### Architecture and Technologies
+
+This project will be implemented with the following technologies: 
+
++ ``Javascript`` for structure and game logic,
++ ``HTML5 Canvas`` for Dom manipulation and rendering
++ Webpack to bundle and serve up the various scripts. 
+
+There will be three scripts involved with this project:
+
+``lazerline.js``: this script will handle the logic for creating and updating the necessary Dom Elements.
+
+``bike.js``: this script will house the physics and collision logic for the bikes.
+
+``enemy.js``: this script will house the AI logic for a 2nd computer player. 
+
+### Implementaiton Timeline 
+
+#### Over the weekend:
+- [ ] Study on similar games. 
+#### Day 1: 
+- [ ] Get webpack serving files and frame out index.html
+- [ ] Generate one bike and collision game-end logic working. 
+#### Day 2: 
+- [ ] Complete bike.js module (constructor, update functions, colors) 
+- [ ] Get sounds to play on collisions 
+- [ ] Get 2 bikes rendered on the canvas 
+- [ ] Get multiplayer working (playing on the same computer)
+#### Day 3: 
+- [ ] Study up on how to do AI
+- [ ] Make a computer AI player bike 
+- [ ] Have all audio event handling and sound effects complete. 
+#### Day 4:  
+- [ ] Ensure full automation of start, pause, reset game functionality 
+- [ ] Polish out UI/UX. 
+- [ ] Players can select their lazerline color and difficulty of game through side buttons. 
+
