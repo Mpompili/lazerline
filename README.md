@@ -6,16 +6,16 @@ Users control an infinitely growing lazerline in attempt to be the last player s
 
 ### Funcitonality & MVP 
 
-- [ ] Controler LazerLine with AWSD or Directional controllers. 
+- [ ] Controler LazerLine with AWSD or Directional Inputs. 
 - [ ] Play against another human player on the same computer
 - [ ] Play against an AI. 
-- [ ] Generate Sound Effects based off of the turns, colisions, and death-sequences. 
+- [ ] Generate Sound Effects based off of the turns, colisions, and end-game events. 
 - [ ] Start, Pause, and Reset the Game. 
-- [ ] Select Game Difficulty (dependent on Speed)
+- [ ] Select Game Difficulty (changes on Speed)
 
 ### Wireframes
 
-This game will consist of a single screen with a splash screen/modal to determine whether or not the game will be against an AI or another human player. There will be links to my Github, Linked as well as an instructional and about modal. There will be a mute button on the bottom left hand corner of the screen. On the left side of the screen the player can select one of many colors to represent their lazerline as well as a difficulty (Easy, Medium, Hard) which determines the speed/playback rate of the game. 
+This game will consist of a single screen with a splash modal to set the second player as an AI or another human player. There will be links to my Github, Linked as well as an instructional and about modal. There will be a mute button on the bottom left hand corner of the screen. On the left side of the screen the player can select one of many colors to represent their lazerline as well as a difficulty (Easy, Medium, Hard) which determines the speed/playback rate of the game. 
 
 ### Architecture and Technologies
 
@@ -31,7 +31,7 @@ There will be three scripts involved with this project:
 
 ``bike.js``: this script will house the physics and collision logic for the bikes.
 
-``enemy.js``: this script will house the AI logic for a 2nd computer player. 
+``enemy.js``: this script will house the AI logic for computer players. 
 
 ### Implementaiton Timeline 
 
@@ -54,3 +54,9 @@ There will be three scripts involved with this project:
 - [ ] Polish out UI/UX. 
 - [ ] Players can select their lazerline color and difficulty of game through side buttons. 
 
+### Bonus features
+
+- [ ] extra environment particle effects to _spice_ up the stage
+- [ ] unique minimalist death and victory modals at game over
+- [ ] Special Rounds, for extra difficulty, sets unique changes to the game for added difficulty...example: Strobe (strobe light effect on the arena) 
+- [ ] 4 person multiplayer over the internet.
