@@ -17,6 +17,8 @@ Users control an infinitely growing lazerline in attempt to be the last player s
 
 This game will consist of a single screen with a splash modal to set the second player as an AI or another human player. There will be links to my Github, Linked as well as an instructional and about modal. There will be a mute button on the bottom left hand corner of the screen. On the left side of the screen the player can select one of many colors to represent their lazerline as well as a difficulty (Easy, Medium, Hard) which determines the speed/playback rate of the game. 
 
+![LAZERLINE](/Users/MichaelP/AppAcademyFolder/projects/LazerLine/images/LazerLine WF.png)
+
 ### Architecture and Technologies
 
 This project will be implemented with the following technologies: 
