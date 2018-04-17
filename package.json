@@ -1,0 +1,27 @@
+{
+  "name": "LazerLine",
+  "version": "1.0.0",
+  "description": "LazerLine is a single and multiple player game heavily influenced by tron's racing game concept.",
+  "main": "lazerline.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mpompili/lazerline.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mpompili/lazerline/issues"
+  },
+  "homepage": "https://github.com/Mpompili/lazerline#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^3.11.0"
+  }
+}
