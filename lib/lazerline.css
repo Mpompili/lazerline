@@ -43,8 +43,8 @@ body{
 }
 
 @keyframes closeButtons {
-  0% {opacity: 1; height: 260px;}
-  30% {opacity: 0.3;}
+  0% {opacity: 1; height: 355px;}
+  30% {opacity: 0;}
   100% {opacity: 0; height: 0px;}
 }
 
@@ -73,6 +73,11 @@ p a {
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #00ffff80, 0 0 35px #00ffff80, 0 0 40px #00ffff80, 0 0 50px #00ffff80, 0 0 75px #00ffff80;
   }
 
+
+#settings-form{
+  display: flex;
+  flex-direction: column;
+}
 .button-list{
   display: flex; 
   /* flex-direction: column; */
