@@ -10,27 +10,47 @@
     <link href="https://fonts.googleapis.com/css?family=Orbitron:900" rel="stylesheet">
 </head>
 <body>
-    <p><a>LAZERLINE</a></p>
-    <div id='settings-form'>
-        <label>NUMBER OF BOTS</label> 
-        <ul id="bl-num" class="button-list">
-            <li id="onebot" class="botbutton">1</li>
-            <li id="twobots" class="botbutton">2</li>
-            <li id="threebots" class="botbutton active">3</li>
-        </ul>
-        <label>DIFFICULTY OF BOTS</label>
-        <ul id="bl-dif" class="button-list">
-            <li id="easy" class="difbutton">1</li>
-            <li id="medium" class="difbutton">2</li>
-            <li id="hard" class="difbutton active">3</li>
-        </ul>
+    <div id='game'>
+        <p><a>LAZERLINE</a></p>
+        <div id='settings-form'>
+            <label>NUMBER OF BOTS</label> 
+            <ul id="bl-num" class="button-list">
+                <li id="onebot" class="botbutton">1</li>
+                <li id="twobots" class="botbutton">2</li>
+                <li id="threebots" class="botbutton active">3</li>
+            </ul>
+            <label>DIFFICULTY OF BOTS</label>
+            <ul id="bl-dif" class="button-list">
+                <li id="easy" class="difbutton">1</li>
+                <li id="medium" class="difbutton">2</li>
+                <li id="hard" class="difbutton active">3</li>
+            </ul>
+        </div>
+        
+        <div id="pract" class="practice"></div>
+        
+        <canvas class="game-canvas"></canvas>
     </div>
-    
-    <div id="pract" class="practice">
+    <div id='start-ref'>
         <div id="start-button">START GAME</div>
     </div>
-    <canvas class="game-canvas"></canvas>
 
+    
+    <div class="tutorial">
+        <h1>HOW TO PLAY</h1>
+        <div 'img-container'>
+            <img src='/Users/MichaelP/AppAcademyFolder/projects/LazerLine/images/arrows.png'/> 
+        </div>
+        <h1>USE ARROWS TO TURN</h1>
+        <h1>DONT TOUCH ANY LAZERS</h1>
+        <h1>LAST LAZER STANDING</h1>
+        <h1>WINS</h1>
+    </div>
+    <div class="tutorial-p2">
+        <h1 id='t2h1' >THIS WILL BE YOUR STARTING POSITION</h1>
+
+        <div class="start-player"></div>
+    </div>
 
 
 
@@ -44,7 +64,7 @@
 
         // function setGame()
     </script> -->
-    <div class="fake"></div>
+    <!-- <div class="fake"></div> -->
 </body>
 </html>
 
