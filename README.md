@@ -1,5 +1,7 @@
 ### Background and Overview
 
+![Play it here!](https://mpompili.github.io/lazerline/)
+
 LazerLine is a single and multiple player game heavily influenced by tron's racing game concept. 
 
 Users control an infinitely growing lazerline in attempt to be the last player standing. Players are eliminated if they run into walls or any lighttrail, be it their own or another players. 
