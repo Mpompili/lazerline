@@ -1,6 +1,7 @@
 ### Background and Overview
 
-![Play it here!](https://mpompili.github.io/lazerline/)
+
+[Play it here!](https://mpompili.github.io/lazerline/)
 
 LazerLine is a single and multiple player game heavily influenced by tron's racing game concept. 
 
@@ -8,12 +9,12 @@ Users control an infinitely growing lazerline in attempt to be the last player s
 
 ### Funcitonality & MVP 
 
-- [ ] Controler LazerLine with AWSD or Directional Inputs. 
+- [x] Controler LazerLine with AWSD or Directional Inputs. 
 - [ ] Play against another human player on the same computer
-- [ ] Play against an AI. 
+- [x] Play against an AI. 
 - [ ] Generate Sound Effects based off of the turns, colisions, and end-game events. 
-- [ ] Start, Pause, and Reset the Game. 
-- [ ] Select Game Difficulty (changes on Speed)
+- [x] Set number of AI bots 
+- [x] Select Game Difficulty/Intelligence of AIbots
 
 ### Wireframes
 
