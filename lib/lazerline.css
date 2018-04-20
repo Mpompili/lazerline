@@ -108,7 +108,8 @@ p a {
 #settings-form{
   display: flex;
   flex-direction: column;
-  margin-bottom: 50px;
+  margin: 60px;
+  z-index: 5; 
 }
 .button-list{
   display: flex; 
@@ -140,7 +141,7 @@ text-shadow: 0 0 8px #00f0ff;
   font-size: 40px;
   font-family: Orbitron;
   border-radius: 5px;
-  margin: 0px 50px;
+  margin: 0px 15px;
   border: 2px rgba(0, 240, 255, 0.4) solid;
   background-color: #000C19;
   color: #fff;
@@ -311,8 +312,49 @@ text-shadow: 0 0 8px #00f0ff;
   100% {opacity: 1; color: #fff;}
 }
 
+.settings-form2 {
+  display: none;
+  flex-direction: column;
+  margin: 60px auto;
+  z-index: 5;
+  position: absolute;
+  top: 104px;
+  font-size: 15px;
+  background-color: rgba(0,0,0,0.85);
+  left: 50%;
+  width: 500px;
+  height: 500px;
+  transform: translateX(-50%);
+  justify-content: center;
+}
 
+.settings-form2 label{
+  font-size: 28px;
+}
 
+.settings-form2 div{
+  font-size: 40px;
+  color: black;
+  font-family: Orbitron;
+  text-align: center;
+  margin-top: 20px;
+  letter-spacing: 2px;
+  text-shadow: 0 0 3px #fff, 0 0 8px #fff, 0 0 15px #00ffff80, 0 0 18px #00ffff80;
+  cursor: pointer; 
+}
+
+#winner {
+  color: #fff; 
+  margin: 10px auto; 
+}
+
+.settings-form2 div:hover{
+  color: #FFF; 
+}
+
+.sf2-appear{
+  display: flex; 
+};
 /* .closeSB {
   animation-name: closeSB;
   animation-duration: 1.25s;
