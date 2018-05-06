@@ -1,5 +1,7 @@
 body{
-  background-color: #000A15
+  background-color: #000A15;
+  display: flex; 
+  flex-direction: column;
 }
 #game{
     display: flex; 
@@ -9,6 +11,7 @@ body{
 
 .practice {
     margin: 20px auto 0px;
+    
     border-top: 1px rgb(0, 240, 255) solid;
     border-bottom: 1px #00f0ff solid;
     background-color: #FFF;
@@ -85,6 +88,7 @@ body{
     margin: 35px auto 0px;
     border: 1px rgb(0, 240, 255) solid;
     box-shadow: 0px 0px 30px #00ffff80;
+    z-index: 1;
 }
 
 .resize{
@@ -169,7 +173,7 @@ text-shadow: 0 0 8px #00f0ff;
   color: #fff;
   font-family: Orbitron;
   letter-spacing: 2px;
-  line-height: 5px;
+  line-height: 20px;
   margin: 0 auto;
   align-items: center;
   /* border: 1px solid #00F0FF; */
@@ -183,15 +187,19 @@ text-shadow: 0 0 8px #00f0ff;
   left: 50%;
   transform: translateX(-50%);
   flex-direction: column;
+  flex-wrap: wrap;
   color: #fff;
   font-size: 10px;
+  /* align-self: center;  */
   font-family: Orbitron;
   letter-spacing: 2px;
-  line-height: 5px;
+  /* line-height: 5px; */
+  text-align: center; 
   margin: 0 auto;
   align-items: center;
   /* border: 1px solid #00F0FF; */
   max-width: 500px;
+  width: 30vw; 
 }
 
 /* h2 {
@@ -200,8 +208,9 @@ text-shadow: 0 0 8px #00f0ff;
 } */
 
 .tutorial img {
-  height: 170px;
+  height: 100px;
   margin: 15px 0px;
+  /* filter: invert(100%);  */
 }
 
 .openTut {
@@ -355,6 +364,32 @@ text-shadow: 0 0 8px #00f0ff;
 .sf2-appear{
   display: flex; 
 };
+
+#links{
+  display: flex; 
+  flex-direction: column; 
+  top: 0; 
+  right: 0;
+  text-align: center; 
+  align-items: center;
+}
+
+#links img{
+  position: absolute; 
+  right: 0; 
+  height: 50px;
+  width: 50px;
+  filter: drop-shadow(0 0 10px #00f0ff); 
+  cursor: pointer; 
+  margin: 50px; 
+}
+img#li{
+  margin-top: 120px;
+  width: 40px;
+  height: 40px;
+  padding-right: 6px;
+
+}
 /* .closeSB {
   animation-name: closeSB;
   animation-duration: 1.25s;
